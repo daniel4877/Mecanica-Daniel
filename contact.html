@@ -19,6 +19,85 @@
                     </ul>
                 </nav>
             </div>
-        </header> 
+        </header>
+        
+		<main>
+			<form>
+				<label for="first-lastname">first-lastname</label>
+				<input type="text" id="first-lastname" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="youremail@domínio.com">
+
+				<label for="telephone">telephone</label>
+				<input type="tel" id="telephone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="message">message(a short report of the problem that occurred)</label>
+				<textarea cols="70" rows="10" id="message" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>how do you prefer our contact?</legend>
+					<label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telephone"><input type="radio" name="contact" value="telephone" id="radio-telefone"> Telephone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>which time would you rather be attended to?</legend>
+					<select>
+						<option>Morning</option>
+						<option>Afternoon</option>
+						<option>Night</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<legend>What is your vehicle?</legend>
+					<select>
+						<option>motorcycle (tricycle or quadricycle);</option>
+						<option>Car (van or kombi);</option>
+						<option>Truck</option>
+                        <option>Bus</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>would you like to receive our news by email?</label>
+
+				<input type="submit" value="submit form" class="enviar">
+			</form>
+            
+			<table>
+				<tr>
+					<td>Day</td>
+					<td>Time</td>
+				</tr>
+				<tr>
+					<td>Monday</td>
+					<td>8h ~ 18h</td>
+				</tr>
+				<tr>
+					<td>Tuesday</td>
+					<td>8h ~ 18h</td>
+				</tr>
+				<tr>
+					<td>Wednesday</td>
+					<td>8h ~ 18h</td>
+				</tr>
+				<tr>
+					<td>Thursday</td>
+					<td>8h ~ 18h</td>
+				</tr>
+				<tr>
+					<td>Friday</td>
+					<td>8h ~ 18h</td>
+				</tr>
+				<tr>
+					<td>Saturday</td>
+					<td>8h ~ 12h</td>
+				</tr>
+			</table>
+		</main>
     </body>
 </html>
