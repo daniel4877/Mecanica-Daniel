@@ -1,0 +1,88 @@
+.box {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.banner {
+	width: 100%;
+}
+
+.main-title {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.main-title:hover {
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.primary {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.primary p {
+	margin: 0 0 1em;
+}
+
+img ~ p:hover {
+	font-size: 20px;
+}
+
+.primary strong {
+	font-weight: bold;
+}
+
+.primary em {
+	font-style: italic;
+}
+
+.utensils {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.benefits {
+	padding: 3em 0;
+	background: #888888;
+}
+
+.content-benefits {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.list-benefits {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.list-benefits:hover {
+	font-size: 20px;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "✯";
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
